@@ -1,0 +1,19 @@
+name: Publish documentation
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  cargo:
+    uses: majksa-actions/workflows/.github/workflows/rust-docs.yml@v1

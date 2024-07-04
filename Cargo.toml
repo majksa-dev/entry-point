@@ -1,0 +1,16 @@
+[package]
+name = "template-rust-app"
+version = "0.0.1"
+edition = "2021"
+
+[[bin]]
+name = "server"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+essentials = { tag = "0.3.6", git = "https://github.com/majksa-dev/rust-essentials" }
+derive_more = "0.99.18"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+envy = "0.4.2"
