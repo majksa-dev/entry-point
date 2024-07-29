@@ -13,7 +13,7 @@ rust-app description
 
 <!-- x-release-please-start-version -->
 
-`docker run --rm -p 80:80 ghcr.io/majksa-dev/api-app:0.0.1`
+`docker run --rm -p 80:80 ghcr.io/majksa-dev/api-app:0.1.0`
 
 <!-- x-release-please-end -->
 
