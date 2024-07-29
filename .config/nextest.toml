@@ -1,0 +1,8 @@
+experimental = ["setup-scripts"]
+
+[script.build-app]
+command = 'cargo build --release'
+
+[[profile.default.scripts]]
+filter = 'deps(entry-point)'
+setup = 'build-app'
