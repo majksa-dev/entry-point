@@ -1336,8 +1336,8 @@ dependencies = [
 
 [[package]]
 name = "gateway"
-version = "0.8.1"
-source = "git+https://github.com/majksa-dev/rust-gateway?tag=0.8.1#bf78134711484418c92b5b4f37b72dabdf5555a0"
+version = "0.8.2"
+source = "git+https://github.com/majksa-dev/rust-gateway?tag=0.8.2#1fbbdaaebee2830b1a2d082a8457cc2565c1d814"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -3145,9 +3145,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.121"
+version = "1.0.122"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4ab380d7d9f22ef3f21ad3e6c1ebe8e4fc7a2000ccba2e4d71fc96f15b2cb609"
+checksum = "784b6203951c57ff748476b126ccb5e8e2959a5c19e5c617ab1956be3dbc68da"
 dependencies = [
  "itoa",
  "memchr",
