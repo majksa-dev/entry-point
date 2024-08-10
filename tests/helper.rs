@@ -48,7 +48,7 @@ pub struct Context {
     app: u16,
     connector: TlsConnector,
     _origin_server: MockServer,
-    _app_server: Child,
+    app_server: Child,
 }
 
 #[derive(Debug)]
@@ -139,12 +139,14 @@ pub async fn before_each() -> Context {
     Context {
         app: ports[1],
         connector,
-        _app_server: app,
+        app_server: app,
         _origin_server: mock_server,
     }
 }
 
-pub async fn after_each(_ctx: ()) {}
+pub async fn after_each(mut ctx: Context) {
+    ctx.app_server.kill().unwrap();
+}
 
 async fn create_origin_server() -> (MockServer, u16) {
     let listener = std::net::TcpListener::bind(SocketAddr::from(([127, 0, 0, 1], 0))).unwrap();
