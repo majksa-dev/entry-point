@@ -11,8 +11,4 @@ impl Upstream {
     pub fn default_port() -> u16 {
         80
     }
-
-    pub fn default_tls() -> bool {
-        false
-    }
 }
