@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.3](https://github.com/majksa-dev/entry-point/compare/v0.1.2...v0.1.3) (2024-08-10)
+
+
+### Bug Fixes
+
+* **deps:** bump the dependencies group across 1 directory with 4 updates ([5fcadaa](https://github.com/majksa-dev/entry-point/commit/5fcadaaf6061285ccf0b10856c8946c217c1245e))
+* **dockerfile:** predefined env variables ([ca1aa09](https://github.com/majksa-dev/entry-point/commit/ca1aa09bae22991e4b61a37505647b0bec9b3cb3))
+* leaky tests ([9a75b81](https://github.com/majksa-dev/entry-point/commit/9a75b811f29a5b46075a7d23a36bf4eb7ff9ce75))
+
 ## [0.1.2](https://github.com/majksa-dev/entry-point/compare/v0.1.1...v0.1.2) (2024-08-10)
 
 
