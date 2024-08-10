@@ -1019,23 +1019,17 @@ version = "0.1.1"
 dependencies = [
  "anyhow",
  "async-trait",
- "chrono",
- "derive_more",
  "envy",
  "essentials",
- "futures-util",
  "gateway",
  "http 1.1.0",
  "pretty_assertions",
- "rand 0.8.5",
  "rcgen",
  "redis",
  "regex",
  "rustls-pemfile",
  "serde",
  "serde_json",
- "slab",
- "structopt",
  "testing-utils",
  "tokio",
  "tokio-rustls 0.26.0",
@@ -1336,8 +1330,8 @@ dependencies = [
 
 [[package]]
 name = "gateway"
-version = "0.8.1"
-source = "git+https://github.com/majksa-dev/rust-gateway?tag=0.8.1#bf78134711484418c92b5b4f37b72dabdf5555a0"
+version = "0.8.5"
+source = "git+https://github.com/majksa-dev/rust-gateway?tag=0.8.5#7b89fff8473e1799da32fd73b69b66a016df0e83"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -2791,9 +2785,9 @@ dependencies = [
 
 [[package]]
 name = "regex"
-version = "1.10.5"
+version = "1.10.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b91213439dad192326a0d7c6ee3955910425f441d7038e0d6933b0aec5c4517f"
+checksum = "4219d74c6b67a3654a9fbebc4b419e22126d13d2f3c4a07ee0cb61ff79a79619"
 dependencies = [
  "aho-corasick",
  "memchr",
