@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.4](https://github.com/majksa-dev/entry-point/compare/v0.1.3...v0.1.4) (2024-08-10)
+
+
+### Bug Fixes
+
+* **deps:** bump gateway to 0.8.6 ([dc429a7](https://github.com/majksa-dev/entry-point/commit/dc429a775c28b872b93c67373a52c68425d886fa))
+* **dockerfile:** healthcheck ([9e636a4](https://github.com/majksa-dev/entry-point/commit/9e636a44818891c260514eb33fbf2248b41b203f))
+
 ## [0.1.3](https://github.com/majksa-dev/entry-point/compare/v0.1.2...v0.1.3) (2024-08-10)
 
 
