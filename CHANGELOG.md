@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/majksa-dev/entry-point/compare/v0.1.1...v0.1.2) (2024-08-10)
+
+
+### Bug Fixes
+
+* **deps:** bump gateway to 0.8.5 ([1f60e01](https://github.com/majksa-dev/entry-point/commit/1f60e017dc1fee6eb28d5f184b94062fbf1ee9c9))
+
 ## [0.1.1](https://github.com/majksa-dev/entry-point/compare/v0.1.0...v0.1.1) (2024-07-30)
 
 
